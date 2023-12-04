@@ -6,6 +6,8 @@
 
 #project-part .project-container .project-item{
     border-radius: 10px;
+    margin-bottom: 50px;
+    
 }
 
 #project-part .project-container .project-item .project-photo{
@@ -27,7 +29,7 @@
 
 #project-part .project-container .project-item .code-btn button{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 10px;
     background-color: #130f40;
     margin: 15px;
     font-size: 20px;
