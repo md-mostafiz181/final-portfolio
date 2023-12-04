@@ -9,16 +9,6 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
 
-  const handleDownload = ()=>{
-    const link = document.createElement('a');
-    link.href = '../../../../public/Frontend developer resume of Mostafiz (1).pdf';
-    link.download = 'Frontend developer resume of Mostafiz (1).pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
-
-
   return (
     <div id="banner-part" className="banner-part primaryBg px-2 py-[120px]">
       <Container>
@@ -73,7 +63,9 @@ const Banner = () => {
               </div>
             </div>
 
-            <button onClick={handleDownload} className="btn-cv text-white  mb-5">Download Resume</button>
+
+
+            <a className="btn-cv text-white  mb-5" href="Frontend developer resume of Mostafiz.pdf" download="Frontend developer resume of Mostafiz.pdf">Download Resume</a>
 
             
           </div>
