@@ -11,8 +11,8 @@ const Banner = () => {
 
   const handleDownload = ()=>{
     const link = document.createElement('a');
-    link.href = '../../../../public/Frontend developer resume of Mostafiz (2).pdf';
-    link.download = 'Frontend developer resume of Mostafiz (2).pdf';
+    link.href = '../../../../public/Frontend developer resume of Mostafiz (1).pdf';
+    link.download = 'Frontend developer resume of Mostafiz (1).pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
