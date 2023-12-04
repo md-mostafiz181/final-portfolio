@@ -1,55 +1,52 @@
-
 #banner-part{
     padding: 100px 0;
     background-color: #130f40;
-    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5); 
-
-}
-#banner-part .box{
-    border-bottom: 10px solid #00b4d8;
-    position: relative;
-    transform: scale(1);
-    transition: .4s;
+    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5);
 }
 
 
-
-#banner-part .box:hover{
-    transform: scale(1.1);
+#banner-part .banner-left{
+    margin-top: 50px;
 }
 
-#banner-part .img {
-    position: absolute;
-    top: -39px;
-    left: 0;
-    width: 400px;
-    height: 380px;
-    border-radius: 47%;
-}
-
-#banner-part .btn-cv{
+#banner-part .banner-left .btn-resume{
     display: inline-block;
-    padding: 15px 25px;
-    background-color: #3a3f9e;
-    font-weight: bold;
+    padding: 10px 25px;
+    background-color:  #3a3f9e;
     margin-top: 20px;
+    color: white;
+    font-weight: bold;
     position: relative;
     z-index: 1;
+    
 }
 
-#banner-part .btn-cv::after{
+#banner-part .banner-left .btn-resume::after{
     position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
+    content: '';
     width: 5%;
     height: 100%;
-    background: #00b4d8;
+    background-color: #00b4d8;
+    top: 0;
+    left: 0;
     transition: .4s;
-    z-index: -1;
+    z-index:-2;
 }
 
-#banner-part .btn-cv:hover::after{
+#banner-part .banner-left .btn-resume:hover::after{
     width: 100%;
 }
 
+#banner-part .banner-right .img-box{
+    width: 80%;
+    height: 90%;
+    background-color: #3a3f9e;
+    border-radius: 50%;
+    border-bottom: 8px solid #00b4d8;
+    overflow: hidden;
+}
+
+#banner-part .banner-right .img-box img{
+    width: 100%;
+    height: 100%;
+}
