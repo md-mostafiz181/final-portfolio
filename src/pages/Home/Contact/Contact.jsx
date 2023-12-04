@@ -18,10 +18,7 @@ const Contact = () => {
           });
       };
 
-      const sendForm=()=> {
-    
-        th- form.current
-    }
+
 
 
     return (
@@ -31,14 +28,14 @@ const Contact = () => {
             <h1 className='lg:text-3xl md:text-2xl sm:text-1xl font-bold text-white ps-[20px] pt-[20px] uppercase text-center'>Contact <span className='text-[#00b4d8]'>Me</span> </h1>
 
             <div className="contact-container grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-3 mt-[50px]">
-                <div className="contact-left  h-[400px]">
+                <div className="contact-left">
                     <div className="inner-box flex justify-center items-center">
                        <div className='img ms-12'> 
                           <img src={contact} alt="" />
                        </div>
                     </div>
                 </div>
-                <div className="contact-right h-[400px] px-2">
+                <div className="contact-right px-2">
                     <form onSubmit={sendEmail} ref={form} >
                         <input className='focus:outline-none focus:border-b-0' type="text" name="name" id="name" placeholder='Name...' />
                         <input  className='focus:outline-none'  type="email" name="email" id="email" placeholder='Email..' />

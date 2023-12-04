@@ -63,7 +63,7 @@ const AboutMe = () => {
               </div>
             </div>
 
-            <div className="icon-box ms-5 mt-3">
+            <div className="icon-box ms-5 mt-3 mb-4">
               <div className="icon-container grid grid-flow-col gap-4">
                 <div className="icon">
                   <Link to="https://github.com/md-mostafiz181" target="_blank">
