@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryBg{
+  background-color: #130f40;
+}
+
+.primaryFont{
+  font-family: 'Roboto', sans-serif;;
+}
+
+.secondaryBg{
+  background-color: #3a3f9e;
+}

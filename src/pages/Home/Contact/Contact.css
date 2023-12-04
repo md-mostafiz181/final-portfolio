@@ -1,0 +1,120 @@
+#contact-part{
+    padding: 100px 0;
+    background-color: #130f40;
+    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5);
+}
+
+/* #contact-part .contact-left img{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+#contact-part .contact-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-part .contact-left .inner-box {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #3a3f9e;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact-part .contact-left .inner-box .img{
+    z-index: 9999;
+}
+
+#contact-part .contact-container .inner-box::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 140%;
+    background-color: rgb(2,0,36);
+    box-sizing: 0 0 20px rgb(8,8,8);
+    animation: animate 4s linear infinite;
+}
+
+
+#contact-part .contact-container .inner-box::after{
+    content: "";
+    position: absolute;
+    inset: 10px;
+    background-color: #130f40;
+    border-radius: 50%;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#contact-part .contact-container .contact-right input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #3a3f9e;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #00b4d8;
+   
+}
+
+#contact-part .contact-container .contact-right textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #3a3f9e;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #00b4d8;
+    
+
+}
+
+#contact-part .contact-container .contact-right textarea::placeholder{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#contact-part .contact-container .contact-right input:focus{
+    border-bottom: none;
+}
+
+#contact-part .contact-container .contact-right input::placeholder{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#contact-part .contact-container .contact-right .btn-submit{
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#contact-part .contact-container .contact-right .btn-submit:hover{
+    background-color: #00b4d8;
+    color: #3a3f9e;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+#project-part{
+    padding: 100px 0;
+    background-color: #130f40;
+    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5); 
+}
+
+#project-part .project-container .project-item{
+    border-radius: 10px;
+}
+
+#project-part .project-container .project-item .project-photo{
+    border-radius: 10px;
+}
+
+#project-part .project-container .project-item .project-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#project-part .project-container .project-item .tech-btn button{
+    margin: 5px;
+    background-color: #00b4d8 !important;
+    color: #130f40 !important;
+   
+}
+
+#project-part .project-container .project-item .code-btn button{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #130f40;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#project-part .project-container .project-item .code-btn button:hover{
+    background-color: #00b4d8;
+    color: white;
+}

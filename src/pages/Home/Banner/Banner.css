@@ -1,0 +1,55 @@
+
+#banner-part{
+    padding: 100px 0;
+    background-color: #130f40;
+    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5); 
+
+}
+#banner-part .box{
+    border-bottom: 10px solid #00b4d8;
+    position: relative;
+    transform: scale(1);
+    transition: .4s;
+}
+
+
+
+#banner-part .box:hover{
+    transform: scale(1.1);
+}
+
+#banner-part .img {
+    position: absolute;
+    top: -39px;
+    left: 0;
+    width: 400px;
+    height: 380px;
+    border-radius: 47%;
+}
+
+#banner-part .btn-cv{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #3a3f9e;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-part .btn-cv::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    background: #00b4d8;
+    transition: .4s;
+    z-index: -1;
+}
+
+#banner-part .btn-cv:hover::after{
+    width: 100%;
+}
+

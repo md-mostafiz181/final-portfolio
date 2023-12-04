@@ -1,0 +1,13 @@
+
+.navbar ul li a{
+    background-color: #130f40;
+    transition: .4s;
+    margin: 5px 10px;
+    
+}
+
+.navbar ul li:hover a{
+    background-color: #30336b;
+    color: #00b4d8;
+    
+} 

@@ -1,0 +1,27 @@
+#about-part{
+    padding: 100px 0;
+    background-color: #130f40;
+    box-shadow: 0 0 10px rgba(46, 158, 233, 0.5); 
+}
+
+#about-part .about-left img{
+    width: 100%;
+}
+
+#about-part .about-left{
+    border-radius: 10px;
+}
+
+#about-part .about-left .img{
+    width: 350px;
+    height: 350px;
+    border: 5px solid #00b4d8;
+    border-radius: 50%;
+    background-color: #130f40;
+}
+
+#about-part .about-right{
+    border-radius: 10px;
+}
+
+
